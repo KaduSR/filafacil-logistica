@@ -1,0 +1,32 @@
+{
+    "name": "filafacil-logisstica",
+    "version": "0.1.0",
+    "description": "Sistema de gerenciamento de coletas de Fila Fácil Logística",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node dist/index.js",
+        "dev": "tsx watch dist/index.js",
+        "build": "tsc",
+        "lint": "eslint \"src/**/*.ts\"",
+        "format": "prettier --write \"src/**/*.ts\"",
+        "validate": "npm run build",
+        "test": "vitest"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^8.21.0",
+        "@typescript-eslint/parser": "^8.21.0",
+        "eslint": "^9.18.0",
+        "prettier": "^3.9.10",
+        "tsx": "^4.23.15",
+        "typescript": "^5.7.2",
+        "vitest": "^5.0.5"
+    },
+    "allowScripts": {
+        "esbuild@0.28.2": true
+    }
+}
